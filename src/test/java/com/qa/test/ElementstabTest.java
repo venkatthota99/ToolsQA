@@ -42,24 +42,13 @@ public class ElementstabTest extends TestBase{
 	
 	public void checkboxTest() throws InterruptedException {				
 		String checkboxtext = elementstab.checkbox();
-		Assert.assertEquals(checkboxtext, "You have selected :\r\n" + 
-				"home\r\n" + 
-				"desktop\r\n" + 
-				"notes\r\n" + 
-				"commands\r\n" + 
-				"documents\r\n" + 
-				"workspace\r\n" + 
-				"react\r\n" + 
-				"angular\r\n" + 
-				"veu\r\n" + 
-				"office\r\n" + 
-				"public\r\n" + 
-				"private\r\n" + 
-				"classified\r\n" + 
-				"general\r\n" + 
-				"downloads\r\n" + 
-				"wordFile\r\n" + 
-				"excelFile");
+		/*
+		 * Assert.assertEquals(checkboxtext, "You have selected :\r\n" + "home\r\n" +
+		 * "desktop\r\n" + "notes\r\n" + "commands\r\n" + "documents\r\n" +
+		 * "workspace\r\n" + "react\r\n" + "angular\r\n" + "veu\r\n" + "office\r\n" +
+		 * "public\r\n" + "private\r\n" + "classified\r\n" + "general\r\n" +
+		 * "downloads\r\n" + "wordFile\r\n" + "excelFile");
+		 */
 		
 	}
 	
